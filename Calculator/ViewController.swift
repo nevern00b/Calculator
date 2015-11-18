@@ -28,7 +28,7 @@ class ViewController: UIViewController {
             display.text = digit
             userIsInTheMiddleofTypingANumber = true
         }
-        println("digit equals \(digit)") //\(var-name) allows you to reference a variable in a string
+        print("digit equals \(digit)") //\(var-name) allows you to reference a variable in a string
         
     }
     
@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         userIsInTheMiddleofTypingANumber = false
         operandStack.append(displayValue) //need to convert string to double so we can put it on stack
         
-        println("operandStack = \(operandStack)") //print out stack
+        print("operandStack = \(operandStack)") //print out stack
         
     }
     

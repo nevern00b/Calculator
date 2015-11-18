@@ -13,6 +13,7 @@
 		219052431BEEA92400171B2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219052421BEEA92400171B2D /* Images.xcassets */; };
 		219052461BEEA92400171B2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 219052441BEEA92400171B2D /* LaunchScreen.xib */; };
 		219052521BEEA92400171B2D /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219052511BEEA92400171B2D /* CalculatorTests.swift */; };
+		21940FB01BF7D7C20030DE5E /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21940FAF1BF7D7C20030DE5E /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2190524B1BEEA92400171B2D /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		219052501BEEA92400171B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		219052511BEEA92400171B2D /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
+		21940FAF1BF7D7C20030DE5E /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				2190523D1BEEA92400171B2D /* ViewController.swift */,
 				2190523F1BEEA92400171B2D /* Main.storyboard */,
+				21940FAF1BF7D7C20030DE5E /* CalculatorBrain.swift */,
 				219052391BEEA92400171B2D /* Supporting Files */,
 			);
 			path = Calculator;
@@ -156,6 +159,8 @@
 		2190522E1BEEA92400171B2D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Reyana Fayyaz";
 				TargetAttributes = {
@@ -213,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21940FB01BF7D7C20030DE5E /* CalculatorBrain.swift in Sources */,
 				2190523E1BEEA92400171B2D /* ViewController.swift in Sources */,
 				2190523C1BEEA92400171B2D /* AppDelegate.swift in Sources */,
 			);
